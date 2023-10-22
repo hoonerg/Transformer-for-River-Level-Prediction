@@ -1,24 +1,24 @@
 # Transformer-for-River-Level-Prediction
-Transformer for River Level Prediction
+Transformer for River Level Prediction <br/>
 
-# Structure
-River level data ---------> 
-Dam discharge data ------->  Model -----> River level prediction
-Rainfall station data ---->
+## Structure
+River level data ---------> <br/>
+Dam discharge data ------->  Model -----> River level prediction <br/>
+Rainfall station data ----> <br/>
 
-# Models
-  1.Corrformer (Transformer with Multi-Correlation mechanism)
-  2.DLinear
-  3.NLinear
-  4.Linear
-
-
-# Acknowledgement
-https://github.com/thuml/Corrformer
-https://github.com/cure-lab/LTSF-Linear
+### Models
+  1.Corrformer (Transformer with Multi-Correlation mechanism) <br/>
+  2.DLinear <br/>
+  3.NLinear <br/>
+  4.Linear <br/>
 
 
-# Model Parameter
+#### Acknowledgement
+https://github.com/thuml/Corrformer <br/>
+https://github.com/cure-lab/LTSF-Linear <br/>
+
+
+##### Model Parameter
 river_dam_rain
   --enc_in 4 \
   --dec_in 4 \
