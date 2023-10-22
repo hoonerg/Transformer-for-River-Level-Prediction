@@ -2,9 +2,11 @@
 Transformer for River Level Prediction <br/>
 
 ## Structure
-River level data ---------> <br/>
-Dam discharge data ------->  Model -----> River level prediction <br/>
-Rainfall station data ----> <br/>
+| Input Data            | Process | Output                   |
+|-----------------------|---------|--------------------------|
+| River level data      |         |                          |
+| Dam discharge data    |  --->   | River level prediction   |
+| Rainfall station data |         |                          |
 
 ### Models
   1.Corrformer (Transformer with Multi-Correlation mechanism) <br/>
